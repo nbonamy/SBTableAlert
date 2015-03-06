@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D341E935-F6C5-4D6E-97CA-E4C5D050CCEB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SBTableAlertDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE1EC5AA72F694792098BD55B2F8F1616F074C0A</key>
+		<string>https://github.com/nbonamy/SBTableAlert.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SBTableAlertDemo/SBTableAlertDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE1EC5AA72F694792098BD55B2F8F1616F074C0A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nbonamy/SBTableAlert.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE1EC5AA72F694792098BD55B2F8F1616F074C0A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE1EC5AA72F694792098BD55B2F8F1616F074C0A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SBTableAlert</string>
+		</dict>
+	</array>
+</dict>
+</plist>
