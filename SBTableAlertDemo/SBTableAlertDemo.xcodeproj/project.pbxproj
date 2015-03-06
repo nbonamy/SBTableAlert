@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5F866F1AAA3F750032F12E /* TSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F86641AAA3F750032F12E /* TSAlertView.m */; };
+		8D5F86701AAA3F750032F12E /* TSAlertViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F86651AAA3F750032F12E /* TSAlertViewBackground.png */; };
+		8D5F86711AAA3F750032F12E /* TSAlertViewBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F86661AAA3F750032F12E /* TSAlertViewBackground2.png */; };
+		8D5F86721AAA3F750032F12E /* TSAlertViewBackgroundiOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F86671AAA3F750032F12E /* TSAlertViewBackgroundiOS7.png */; };
+		8D5F86731AAA3F750032F12E /* TSAlertViewButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F86681AAA3F750032F12E /* TSAlertViewButtonBackground.png */; };
+		8D5F86741AAA3F750032F12E /* TSAlertViewButtonBackground_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F86691AAA3F750032F12E /* TSAlertViewButtonBackground_Highlighted.png */; };
+		8D5F86751AAA3F750032F12E /* TSAlertViewButtonBackground_HighlightediOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F866A1AAA3F750032F12E /* TSAlertViewButtonBackground_HighlightediOS7.png */; };
+		8D5F86761AAA3F750032F12E /* TSAlertViewButtonBackgroundiOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F866B1AAA3F750032F12E /* TSAlertViewButtonBackgroundiOS7.png */; };
+		8D5F86771AAA3F750032F12E /* TSAlertViewCancelButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F866C1AAA3F750032F12E /* TSAlertViewCancelButtonBackground.png */; };
+		8D5F86781AAA3F750032F12E /* TSAlertViewCancelButtonBackgroundiOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F866D1AAA3F750032F12E /* TSAlertViewCancelButtonBackgroundiOS7.png */; };
+		8D5F86791AAA3F750032F12E /* TSAlertViewMessageListViewShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5F866E1AAA3F750032F12E /* TSAlertViewMessageListViewShadow.png */; };
 		F48DBE2013935E3B0087CD02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48DBE1F13935E3B0087CD02 /* UIKit.framework */; };
 		F48DBE2213935E3B0087CD02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48DBE2113935E3B0087CD02 /* Foundation.framework */; };
 		F48DBE2413935E3B0087CD02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48DBE2313935E3B0087CD02 /* CoreGraphics.framework */; };
@@ -20,6 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D5F86631AAA3F750032F12E /* TSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAlertView.h; sourceTree = "<group>"; };
+		8D5F86641AAA3F750032F12E /* TSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAlertView.m; sourceTree = "<group>"; };
+		8D5F86651AAA3F750032F12E /* TSAlertViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackground.png; sourceTree = "<group>"; };
+		8D5F86661AAA3F750032F12E /* TSAlertViewBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackground2.png; sourceTree = "<group>"; };
+		8D5F86671AAA3F750032F12E /* TSAlertViewBackgroundiOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackgroundiOS7.png; sourceTree = "<group>"; };
+		8D5F86681AAA3F750032F12E /* TSAlertViewButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewButtonBackground.png; sourceTree = "<group>"; };
+		8D5F86691AAA3F750032F12E /* TSAlertViewButtonBackground_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewButtonBackground_Highlighted.png; sourceTree = "<group>"; };
+		8D5F866A1AAA3F750032F12E /* TSAlertViewButtonBackground_HighlightediOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewButtonBackground_HighlightediOS7.png; sourceTree = "<group>"; };
+		8D5F866B1AAA3F750032F12E /* TSAlertViewButtonBackgroundiOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewButtonBackgroundiOS7.png; sourceTree = "<group>"; };
+		8D5F866C1AAA3F750032F12E /* TSAlertViewCancelButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewCancelButtonBackground.png; sourceTree = "<group>"; };
+		8D5F866D1AAA3F750032F12E /* TSAlertViewCancelButtonBackgroundiOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewCancelButtonBackgroundiOS7.png; sourceTree = "<group>"; };
+		8D5F866E1AAA3F750032F12E /* TSAlertViewMessageListViewShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewMessageListViewShadow.png; sourceTree = "<group>"; };
 		F48DBE1B13935E3B0087CD02 /* SBTableAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBTableAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48DBE1F13935E3B0087CD02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F48DBE2113935E3B0087CD02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,9 +75,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D5F86621AAA3F750032F12E /* TSAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				8D5F86631AAA3F750032F12E /* TSAlertView.h */,
+				8D5F86641AAA3F750032F12E /* TSAlertView.m */,
+				8D5F86651AAA3F750032F12E /* TSAlertViewBackground.png */,
+				8D5F86661AAA3F750032F12E /* TSAlertViewBackground2.png */,
+				8D5F86671AAA3F750032F12E /* TSAlertViewBackgroundiOS7.png */,
+				8D5F86681AAA3F750032F12E /* TSAlertViewButtonBackground.png */,
+				8D5F86691AAA3F750032F12E /* TSAlertViewButtonBackground_Highlighted.png */,
+				8D5F866A1AAA3F750032F12E /* TSAlertViewButtonBackground_HighlightediOS7.png */,
+				8D5F866B1AAA3F750032F12E /* TSAlertViewButtonBackgroundiOS7.png */,
+				8D5F866C1AAA3F750032F12E /* TSAlertViewCancelButtonBackground.png */,
+				8D5F866D1AAA3F750032F12E /* TSAlertViewCancelButtonBackgroundiOS7.png */,
+				8D5F866E1AAA3F750032F12E /* TSAlertViewMessageListViewShadow.png */,
+			);
+			name = TSAlertView;
+			path = ../TSAlertView;
+			sourceTree = "<group>";
+		};
 		F48DBE1013935E3B0087CD02 = {
 			isa = PBXGroup;
 			children = (
+				8D5F86621AAA3F750032F12E /* TSAlertView */,
 				F48DBE2513935E3B0087CD02 /* SBTableAlertDemo */,
 				F48DBE1E13935E3B0087CD02 /* Frameworks */,
 				F48DBE1C13935E3B0087CD02 /* Products */,
@@ -158,7 +202,17 @@
 			files = (
 				F48DBE2A13935E3B0087CD02 /* InfoPlist.strings in Resources */,
 				F48DBE3313935E3B0087CD02 /* MainWindow.xib in Resources */,
+				8D5F86781AAA3F750032F12E /* TSAlertViewCancelButtonBackgroundiOS7.png in Resources */,
+				8D5F86751AAA3F750032F12E /* TSAlertViewButtonBackground_HighlightediOS7.png in Resources */,
+				8D5F86721AAA3F750032F12E /* TSAlertViewBackgroundiOS7.png in Resources */,
+				8D5F86761AAA3F750032F12E /* TSAlertViewButtonBackgroundiOS7.png in Resources */,
+				8D5F86701AAA3F750032F12E /* TSAlertViewBackground.png in Resources */,
+				8D5F86791AAA3F750032F12E /* TSAlertViewMessageListViewShadow.png in Resources */,
+				8D5F86741AAA3F750032F12E /* TSAlertViewButtonBackground_Highlighted.png in Resources */,
+				8D5F86731AAA3F750032F12E /* TSAlertViewButtonBackground.png in Resources */,
 				F48DBE3913935E3B0087CD02 /* RootViewController.xib in Resources */,
+				8D5F86771AAA3F750032F12E /* TSAlertViewCancelButtonBackground.png in Resources */,
+				8D5F86711AAA3F750032F12E /* TSAlertViewBackground2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5F866F1AAA3F750032F12E /* TSAlertView.m in Sources */,
 				F48DBE2D13935E3B0087CD02 /* main.m in Sources */,
 				F48DBE3013935E3B0087CD02 /* SBTableAlertDemoAppDelegate.m in Sources */,
 				F48DBE3613935E3B0087CD02 /* RootViewController.m in Sources */,
@@ -218,7 +273,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -232,7 +287,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -247,8 +302,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SBTableAlertDemo/SBTableAlertDemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					TSAlertView,
+				);
 				INFOPLIST_FILE = "SBTableAlertDemo/SBTableAlertDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -262,8 +322,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SBTableAlertDemo/SBTableAlertDemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					TSAlertView,
+				);
 				INFOPLIST_FILE = "SBTableAlertDemo/SBTableAlertDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
