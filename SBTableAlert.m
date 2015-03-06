@@ -163,7 +163,7 @@
 		[_cellBackgroundView setBackgroundColor:[UIColor clearColor]];
 		[_cellBackgroundView setAutoresizingMask:(UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight)];
 		[self setBackgroundView:_cellBackgroundView];
-		[_cellBackgroundView release];
+		//[_cellBackgroundView release];
 
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setNeedsDisplay) name:UIApplicationDidChangeStatusBarOrientationNotification object:nil];
 	}
@@ -247,7 +247,7 @@
 
 - (id)initWithTitle:(NSString *)title cancelButtonTitle:(NSString *)cancelTitle messageFormat:(NSString *)format args:(va_list)args {
 	if ((self = [super init])) {
-		NSString *message = format ? [[[NSString alloc] initWithFormat:format arguments:args] autorelease] : nil;
+		NSString *message = format ? [[NSString alloc] initWithFormat:format arguments:args] : nil;
 
 		_alertView = [[TSAlertView alloc] initWithTitle:title message:message delegate:self cancelButtonTitle:cancelTitle otherButtonTitles:nil];
 
@@ -290,7 +290,7 @@
 }
 
 + (id)alertWithTitle:(NSString *)title cancelButtonTitle:(NSString *)cancelTitle messageFormat:(NSString *)message, ... {
-	return [[[SBTableAlert alloc] initWithTitle:title cancelButtonTitle:cancelTitle messageFormat:message] autorelease];
+	return [[SBTableAlert alloc] initWithTitle:title cancelButtonTitle:cancelTitle messageFormat:message];
 }
 
 - (void)dealloc {
@@ -441,7 +441,7 @@
 		if (!title)
 			return nil;
 
-		return [[[SBTableViewSectionHeaderView alloc] initWithTitle:title] autorelease];
+		return [[SBTableViewSectionHeaderView alloc] initWithTitle:title];
 	}
 
 	return nil;

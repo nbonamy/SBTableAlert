@@ -344,7 +344,7 @@ const CGFloat kTSAlertView_ColumnMargin = 10.0;
 {
 	if ( _buttons == nil )
 	{
-		_buttons = [[NSMutableArray arrayWithCapacity:4] retain];
+		_buttons = [NSMutableArray arrayWithCapacity:4];
 	}
 
 	return _buttons;
@@ -625,7 +625,6 @@ const CGFloat kTSAlertView_ColumnMargin = 10.0;
 	// the one place we release the window we allocated in "show"
 	// this will propogate releases to us (TSAlertView), and our TSAlertViewController
 	NSLog (@"%@ calls release on window:%@",self,self.window);
-	self.window = nil;
 	//[self.window release];
 }
 
@@ -636,7 +635,7 @@ const CGFloat kTSAlertView_ColumnMargin = 10.0;
 
 
 
-	TSAlertViewController* avc = [[[TSAlertViewController alloc] init] autorelease];
+	TSAlertViewController* avc = [[TSAlertViewController alloc] init];
 	avc.view.backgroundColor = [UIColor clearColor];
 
 	// $important - the window is released only when the user clicks an alert view button
