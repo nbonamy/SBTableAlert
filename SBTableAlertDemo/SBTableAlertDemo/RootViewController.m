@@ -130,7 +130,7 @@
 		cell = [[[SBTableAlertCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
 	}
 	
-	[cell.textLabel setText:[NSString stringWithFormat:@"Cell %d", indexPath.row]];
+	[cell.textLabel setText:[NSString stringWithFormat:@"Cell %d", (int) indexPath.row]];
 	
 	return cell;
 }
@@ -151,7 +151,7 @@
 
 - (NSString *)tableAlert:(SBTableAlert *)tableAlert titleForHeaderInSection:(NSInteger)section {
 	if (tableAlert.view.tag == 3)
-		return [NSString stringWithFormat:@"Section Header %d", section];
+		return [NSString stringWithFormat:@"Section Header %d", (int) section];
 	else
 		return nil;
 }
@@ -171,7 +171,7 @@
 }
 
 - (void)tableAlert:(SBTableAlert *)tableAlert didDismissWithButtonIndex:(NSInteger)buttonIndex {
-	NSLog(@"Dismissed: %i", buttonIndex);
+	NSLog(@"Dismissed: %i", (int) buttonIndex);
 	
 	[tableAlert release];
 }
