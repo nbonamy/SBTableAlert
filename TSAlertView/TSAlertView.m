@@ -33,26 +33,10 @@
 
 - (void) drawRect: (CGRect) rect
 {
-	// render the radial gradient behind the alertview
-	
-	CGFloat width			= self.frame.size.width;
-	CGFloat height			= self.frame.size.height;
-	CGFloat locations[3]	= { 0.0, 0.5, 1.0 	};
-	CGFloat components[12]	= {	1, 1, 1, 0.5,
-		0, 0, 0, 0.5,
-		0, 0, 0, 0.7	};
-	
-	CGColorSpaceRef colorspace = CGColorSpaceCreateDeviceRGB();
-	CGGradientRef backgroundGradient = CGGradientCreateWithColorComponents(colorspace, components, locations, 3);
-	CGColorSpaceRelease(colorspace);
-	
-	CGContextDrawRadialGradient(UIGraphicsGetCurrentContext(), 
-								backgroundGradient, 
-								CGPointMake(width/2, height/2), 0,
-								CGPointMake(width/2, height/2), MAX(width,height),
-								0);
-	
-	CGGradientRelease(backgroundGradient);
+  CGContextRef context = UIGraphicsGetCurrentContext();
+  CGRect drawRect = CGRectMake(rect.origin.x, rect.origin.y,rect.size.width, rect.size.height);
+  CGContextSetRGBFillColor(context, 0.0f, 0.0f, 0.0f, 0.45f);
+  CGContextFillRect(context, drawRect);
 }
 
 - (void) dealloc
